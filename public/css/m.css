@@ -1,0 +1,50 @@
+html{
+    font-size: 100px;
+    height: 100%;
+}
+
+body{
+    font-size: 15px;
+    height: 100%;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.list-group{
+    height: 1.8rem;
+    padding: 0 .1rem .3rem;
+}
+body .tab{
+    border-top: 1px solid #cdcdcd;
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+}
+body .tab li{
+    padding-top: .1rem;
+    float: left;
+    width: 25%;
+    height: 1rem;
+    text-align: center;
+    font-size: .23rem;
+}
+
+body .tab li span{
+    width: 50%;
+}
+
+dl p{
+    font-size: .22rem;
+}
+body .tab li .active{
+    color: mediumseagreen;
+}
+body .tab li a{
+    color: grey;
+}
